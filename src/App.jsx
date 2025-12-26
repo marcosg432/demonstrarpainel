@@ -38,7 +38,7 @@ function App() {
         <Route path="/suite-exclusiva" element={<SuiteExclusiva />} />
         <Route path="/carrinho" element={<Carrinho />} />
         <Route path="/checkout" element={<Checkout />} />
-        <Route path="/admin/login" element={<Login />} />
+        <Route path="/admin/login" element={<Dashboard />} />
         <Route path="/admin" element={<Dashboard />} />
         <Route path="/admin/financeiro" element={<Financeiro />} />
         <Route path="/admin/reservas" element={<Reservas />} />

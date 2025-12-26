@@ -7,7 +7,7 @@ const AdminHeader = ({ currentPage }) => {
 
   const handleLogout = () => {
     logout()
-    navigate('/admin/login')
+    navigate('/admin')
   }
 
   return (
